@@ -7,32 +7,37 @@
     {
       "href": "#home",
       "icon": "fas fa-home",
-      "text": "Home"
+      "label": "Home"
     },
     {
       "href": "#about",
       "icon": "fas fa-user",
-      "text": "About"
+      "label": "About"
     },
     {
       "href": "#experience",
       "icon": "fas fa-briefcase",
-      "text": "Experience"
-    },
-    {
-      "href": "#projects",
-      "icon": "fas fa-project-diagram",
-      "text": "Projects"
+      "label": "Experience"
     },
     {
       "href": "#skills",
       "icon": "fas fa-code",
-      "text": "Skills"
+      "label": "Skills"
+    },
+    {
+      "href": "#projects",
+      "icon": "fas fa-project-diagram",
+      "label": "Projects"
+    },
+    {
+      "href": "#education",
+      "icon": "fas fa-graduation-cap",
+      "label": "Education"
     },
     {
       "href": "#contact",
       "icon": "fas fa-envelope",
-      "text": "Contact"
+      "label": "Contact"
     }
   ]
 }

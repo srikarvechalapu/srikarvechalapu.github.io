@@ -443,9 +443,13 @@ async function loadProjects() {
                 </a>`);
             }
 
+            const projectImageContent = project.image
+                ? `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;">`
+                : `<i class="${project.icon || 'fas fa-code'}"></i>`;
+
             projectCard.innerHTML = `
                 <div class="project-image">
-                    <i class="${project.icon || 'fas fa-code'}"></i>
+                    ${projectImageContent}
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>

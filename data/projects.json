@@ -6,6 +6,7 @@
       "description": "Developed a classification model using Python (XGBoost) to identify pharmacies at risk of switching distributors based on order volume and complaint history.\nFlagged 500+ at-risk accounts for the sales team, resulting in a 12% reduction in customer churn.\nProtected approximately $2M in annual revenue by enabling proactive retention strategies.",
       "color": "#667eea",
       "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
       "technologies": [
         "Python",
         "XGBoost"
@@ -24,6 +25,7 @@
       "description": "Built a statistical regression model using Python and Azure Databricks to attribute ride bookings to specific marketing channels (Email, Push, Paid Ads).\nReallocated $500K in quarterly ad spend based on channel performance insights.\nIncreased Customer Acquisition Cost (CAC) efficiency by 15% without reducing total booking volume.",
       "color": "#764ba2",
       "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
       "technologies": [
         "Python",
         "Azure Databricks"
@@ -38,13 +40,15 @@
       "stats": {}
     },
     {
-      "title": "retail-data-analytics-project-python-sql-integration",
-      "description": "Practice application demonstrating full-stack development skills",
+      "title": "Retail Data Analytics",
+      "description": "End-to-end retail analytics project integrating Python and SQL for comprehensive data analysis, featuring sales trend analysis, customer segmentation, and inventory optimization insights.",
       "color": "#f093fb",
       "icon": "fab fa-github",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
       "technologies": [
         "Jupyter Notebook",
-        "Python"
+        "Python",
+        "SQL"
       ],
       "keyFeatures": [],
       "projectType": "",
@@ -60,12 +64,15 @@
       }
     },
     {
-      "title": "data-pipelines-with-airflow",
-      "description": "Interactive application built for continuous learning",
+      "title": "Data Pipelines with Airflow",
+      "description": "Automated data pipeline orchestration using Apache Airflow for ETL workflows, featuring scheduled data ingestion, transformation, and loading with monitoring and alerting capabilities.",
       "color": "#4facfe",
       "icon": "fab fa-github",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
       "technologies": [
-        "Python"
+        "Python",
+        "Apache Airflow",
+        "ETL"
       ],
       "keyFeatures": [],
       "projectType": "",
@@ -81,14 +88,15 @@
       }
     },
     {
-      "title": "extracting-structured-data-from-pdfs",
-      "description": "Practice application demonstrating full-stack development skills",
+      "title": "PDF Data Extraction",
+      "description": "Intelligent document processing system that extracts structured data from PDF files using Python, featuring text extraction, table parsing, and data validation pipelines.",
       "color": "#667eea",
       "icon": "fab fa-github",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop",
       "technologies": [
         "Python",
         "Jupyter Notebook",
-        "Dockerfile"
+        "Docker"
       ],
       "keyFeatures": [],
       "projectType": "",
@@ -104,12 +112,15 @@
       }
     },
     {
-      "title": "customer-churn-prediction",
-      "description": "Interactive application built for continuous learning",
+      "title": "Customer Churn Prediction",
+      "description": "Machine learning model to predict customer churn using classification algorithms, featuring feature engineering, model comparison, and actionable insights for retention strategies.",
       "color": "#764ba2",
       "icon": "fab fa-github",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       "technologies": [
-        "Python"
+        "Python",
+        "Scikit-learn",
+        "Pandas"
       ],
       "keyFeatures": [],
       "projectType": "",
@@ -125,15 +136,15 @@
       }
     },
     {
-      "title": "online-payments-fraud-detection-with-machine-learning",
-      "description": "Interactive application built for continuous learning",
+      "title": "Online Payment Fraud Detection",
+      "description": "Machine learning system for detecting fraudulent online transactions, implementing anomaly detection and classification models to identify suspicious payment patterns in real-time.",
       "color": "#f093fb",
       "icon": "fab fa-github",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
       "technologies": [
         "Jupyter Notebook",
-        "HTML",
         "Python",
-        "CSS"
+        "Machine Learning"
       ],
       "keyFeatures": [],
       "projectType": "",

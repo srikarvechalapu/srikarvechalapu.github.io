@@ -2,10 +2,12 @@
   "sectionTitle": "Education",
   "education": [
     {
-      "degree": "Masters in Management Information Systems",
-      "institution": "University at Memphis",
-      "period": "May 2024",
-      "description": "Masters in Management Information Systems",
+      "degree": "Master of Science in Management Information Systems",
+      "school": "University of Memphis",
+      "location": "Memphis, TN",
+      "period": "August 2022 - May 2024",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/University_of_Memphis_seal.svg/150px-University_of_Memphis_seal.svg.png",
+      "details": "STEM-designated degree from the Fogelman College of Business & Economics, the only AACSB-accredited business college in the Memphis area. Focused on business analytics, data management, and information systems strategy.",
       "achievements": [],
       "color": "#667eea",
       "icon": "fas fa-graduation-cap"

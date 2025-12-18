@@ -496,11 +496,17 @@ async function loadEducation() {
             const eduItem = document.createElement('div');
             eduItem.className = 'education-item';
 
+            const logoHtml = edu.logo
+                ? `<img src="${edu.logo}" alt="${edu.school}" style="width: 60px; height: 60px; object-fit: contain; margin-right: 1rem;">`
+                : '';
+
             eduItem.innerHTML = `
                 <div class="education-header">
-                    <div>
+                    ${logoHtml}
+                    <div style="flex: 1;">
                         <h3 class="education-degree">${edu.degree}</h3>
                         <p class="education-school">${edu.school}</p>
+                        ${edu.location ? `<p style="font-size: 0.875rem; color: var(--text-light);">${edu.location}</p>` : ''}
                     </div>
                     <span class="education-period">${edu.period}</span>
                 </div>

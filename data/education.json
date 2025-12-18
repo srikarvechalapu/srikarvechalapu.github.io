@@ -14,5 +14,30 @@
     }
   ],
   "certificationsTitle": "Certifications & Awards",
-  "certifications": []
+  "certifications": [
+    {
+      "name": "Google Advanced Data Analytics Professional Certificate",
+      "issuer": "Google / Coursera",
+      "image": "assets/images/google-adv-analytics-cert.png",
+      "link": "https://www.coursera.org/account/accomplishments/professional-cert/TGVT3OQ744CA"
+    },
+    {
+      "name": "Google Business Intelligence Certificate",
+      "issuer": "Google / Coursera",
+      "image": "assets/images/google-bi-cert.jpg",
+      "link": "https://www.coursera.org/account/accomplishments/verify/L0LTNBT40YDZ"
+    },
+    {
+      "name": "SQL Advanced Skills Certification",
+      "issuer": "HackerRank",
+      "image": "assets/images/hackerrank-logo.svg",
+      "link": "https://www.hackerrank.com/certificates/4d39b84fd777"
+    },
+    {
+      "name": "Python Skills Certification",
+      "issuer": "HackerRank",
+      "image": "assets/images/hackerrank-logo.svg",
+      "link": "https://www.hackerrank.com/certificates/ac05b840c712"
+    }
+  ]
 }

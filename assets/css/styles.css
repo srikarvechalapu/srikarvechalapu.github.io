@@ -477,6 +477,21 @@ ul {
     align-items: flex-start;
     margin-bottom: var(--spacing-sm);
     flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+    background-color: white;
+    padding: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.timeline-info {
+    flex: 1;
 }
 
 .timeline-title {
@@ -739,11 +754,46 @@ ul {
     border-radius: var(--radius-md);
     border-left: 4px solid var(--primary-color);
     transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
 }
 
 .cert-item:hover {
     background-color: var(--primary-color);
     color: white;
+}
+
+.cert-item:hover .cert-link {
+    color: white;
+}
+
+.cert-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+    background-color: white;
+    padding: 6px;
+    flex-shrink: 0;
+}
+
+.cert-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.cert-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.cert-link:hover {
+    text-decoration: underline;
 }
 
 /* ==========================================================================

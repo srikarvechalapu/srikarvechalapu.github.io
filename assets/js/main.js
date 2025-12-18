@@ -205,20 +205,22 @@ async function loadContact() {
 
         // Build contact form
         const formContainer = document.getElementById('contactFormContainer');
-        if (formContainer) {
+        if (formContainer && contact.form) {
             let formHTML = '<form class="contact-form" id="contactForm">';
+            formHTML += '<h3 style="margin-bottom: 1.5rem; color: var(--primary-color);">Send Me a Message</h3>';
 
             contact.form.fields.forEach(field => {
                 formHTML += '<div class="form-group">';
                 if (field.type === 'textarea') {
-                    formHTML += `<textarea id="${field.id}" name="${field.id}" rows="${field.rows}" placeholder="${field.placeholder}" ${field.required ? 'required' : ''}></textarea>`;
+                    formHTML += `<textarea name="${field.name}" rows="${field.rows || 5}" placeholder="${field.placeholder}" ${field.required ? 'required' : ''}></textarea>`;
                 } else {
-                    formHTML += `<input type="${field.type}" id="${field.id}" name="${field.id}" placeholder="${field.placeholder}" ${field.required ? 'required' : ''}>`;
+                    formHTML += `<input type="${field.type}" name="${field.name}" placeholder="${field.placeholder}" ${field.required ? 'required' : ''}>`;
                 }
                 formHTML += '</div>';
             });
 
-            formHTML += `<button type="submit" class="btn btn-${contact.form.submitButton.type}">${contact.form.submitButton.text}</button>`;
+            const submitIcon = contact.form.submitIcon ? `<i class="${contact.form.submitIcon}"></i> ` : '';
+            formHTML += `<button type="submit" class="btn btn-primary">${submitIcon}${contact.form.submitText}</button>`;
             formHTML += '</form>';
 
             formContainer.innerHTML = formHTML;
@@ -228,7 +230,7 @@ async function loadContact() {
             if (contactForm) {
                 contactForm.addEventListener('submit', (e) => {
                     e.preventDefault();
-                    alert(contact.form.successMessage);
+                    alert(contact.form.successMessage || 'Thank you! Your message has been sent.');
                     contactForm.reset();
                 });
             }
@@ -351,10 +353,15 @@ async function loadExperience() {
                 ? `<ul>${exp.responsibilities.map(r => `<li>${r}</li>`).join('')}</ul>`
                 : '';
 
+            const logoHtml = exp.logo
+                ? `<img src="${exp.logo}" alt="${exp.company}" class="company-logo">`
+                : '';
+
             timelineItem.innerHTML = `
                 <div class="timeline-content">
                     <div class="timeline-header">
-                        <div>
+                        ${logoHtml}
+                        <div class="timeline-info">
                             <h3 class="timeline-title">${exp.title}</h3>
                             <p class="timeline-company">${exp.company}</p>
                         </div>
@@ -526,9 +533,22 @@ async function loadEducation() {
         data.certifications.forEach(cert => {
             const certItem = document.createElement('div');
             certItem.className = 'cert-item';
+
+            const imageHtml = cert.image
+                ? `<img src="${cert.image}" alt="${cert.name}" class="cert-image">`
+                : '';
+
+            const linkHtml = cert.link
+                ? `<a href="${cert.link}" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>`
+                : '';
+
             certItem.innerHTML = `
-                <strong>${cert.name}</strong>
-                ${cert.issuer ? `<p style="font-size: 0.875rem; margin-top: 0.25rem; opacity: 0.8;">${cert.issuer}</p>` : ''}
+                ${imageHtml}
+                <div class="cert-info">
+                    <strong>${cert.name}</strong>
+                    ${cert.issuer ? `<p style="font-size: 0.875rem; margin-top: 0.25rem; opacity: 0.8;">${cert.issuer}</p>` : ''}
+                    ${linkHtml}
+                </div>
             `;
             certGrid.appendChild(certItem);
         });

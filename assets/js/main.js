@@ -96,6 +96,7 @@ async function loadHero() {
                 a.href = button.href;
                 a.className = `btn btn-${button.type}`;
                 if (button.external) a.target = '_blank';
+                if (button.download) a.setAttribute('download', '');
                 a.innerHTML = button.icon ? `<i class="${button.icon}"></i> ${button.text}` : button.text;
                 ctaContainer.appendChild(a);
             });
@@ -113,6 +114,12 @@ async function loadHero() {
                 a.innerHTML = `<i class="${social.icon}"></i>`;
                 socialContainer.appendChild(a);
             });
+        }
+
+        // Load profile image
+        const heroImageContainer = document.getElementById('heroImage');
+        if (heroImageContainer && hero.profileImage) {
+            heroImageContainer.innerHTML = `<img src="${hero.profileImage}" alt="${hero.name}" class="profile-image">`;
         }
     } catch (error) {
         console.error('Error loading hero data:', error);

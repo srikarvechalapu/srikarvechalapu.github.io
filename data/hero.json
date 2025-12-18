@@ -4,6 +4,7 @@
   "title": "Data Analyst",
   "tagline": "Data Analyst",
   "summary": "Welcome to my portfolio",
+  "profileImage": "assets/images/profile.png",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
@@ -28,6 +29,13 @@
         "type": "primary",
         "icon": "fas fa-folder-open",
         "text": "View Projects"
+      },
+      {
+        "href": "assets/documents/resume.docx",
+        "type": "secondary",
+        "icon": "fas fa-download",
+        "text": "Download Resume",
+        "download": true
       },
       {
         "href": "#contact",

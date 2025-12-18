@@ -1,0 +1,23 @@
+{
+  "tagline": "Building the future, one line of code at a time.",
+  "socialLinks": [
+    {
+      "url": "linkedin.com/in/srikarvechalapu",
+      "platform": "LinkedIn",
+      "icon": "fab fa-linkedin"
+    }
+  ],
+  "copyright": {
+    "text": "© 2025 Sai Srikar Vechalapu. All rights reserved."
+  },
+  "links": [
+    {
+      "href": "#",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "#",
+      "text": "Terms of Service"
+    }
+  ]
+}

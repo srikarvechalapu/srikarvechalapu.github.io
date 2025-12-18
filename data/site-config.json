@@ -1,0 +1,13 @@
+{
+  "title": "Sai Srikar Vechalapu - Professional Portfolio",
+  "description": "Professional portfolio showcasing my work and experience",
+  "author": "Sai Srikar Vechalapu",
+  "keywords": "A/B Testing, Product Analytics, KPI tracking, Data Modeling, Colibra, Data Mapping, Risk Assessment, Fraud Analytics, Data Quality, Data Validation, Security Standards, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyCharm, PyTorch, MLflow, Databricks ML, MySQL, PostgreSQL, Oracle, Snowflake, MongoDB, BigQuery, PL/SQL, SQL Server, Teradata, Apache Airflow, AWS Glue, Informatica, Talend, dbt, SSIS, Job Scheduling, Automation, Power BI, Tableau, Looker Studio, QlikView, KPI Dashboard, Excel, Hadoop, Apache Spark, Hive, Kafka, CI/CD, Jenkins, AWS (EC2, S3, Lambda, Redshift, Glue, IAM), Microsoft Azure (Data Factory, Databricks, SQL), GCP, Git, GitHub, JIRA, Agile, Scrum, SQL, R, Python, Scala, AWS Redshift, S3, Looker, Snowpipe, Databricks, PySpark, Collibra, NLP, Statistical Analysis, AWS, Redshift, XGBoost, Azure Databricks",
+  "ogImage": "/assets/images/og-image.jpg",
+  "favicon": "/assets/images/favicon.ico",
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "secondaryColor": "#8b5cf6",
+    "accentColor": "#ec4899"
+  }
+}

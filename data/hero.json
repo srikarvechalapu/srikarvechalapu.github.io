@@ -1,0 +1,51 @@
+{
+  "greeting": "Hello, I'm",
+  "name": "Sai Srikar Vechalapu",
+  "title": "Data Analyst",
+  "tagline": "Data Analyst",
+  "summary": "Welcome to my portfolio",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "color": "#667eea",
+      "text": "3+ Years Experience"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "color": "#764ba2",
+      "text": "7+ Projects Completed"
+    },
+    {
+      "icon": "fas fa-code",
+      "color": "#f093fb",
+      "text": "75+ Technologies"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "href": "#projects",
+        "type": "primary",
+        "icon": "fas fa-folder-open",
+        "text": "View Projects"
+      },
+      {
+        "href": "#contact",
+        "type": "secondary",
+        "icon": "fas fa-envelope",
+        "text": "Contact Me"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "url": "linkedin.com/in/srikarvechalapu",
+      "platform": "LinkedIn",
+      "icon": "fab fa-linkedin"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "icon": "fas fa-chevron-down"
+  }
+}

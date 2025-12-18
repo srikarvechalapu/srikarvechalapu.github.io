@@ -1,0 +1,67 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-code",
+      "color": "#667eea",
+      "skills": [
+        "A/B Testing",
+        "Product Analytics",
+        "KPI tracking",
+        "Data Modeling",
+        "Colibra",
+        "Data Mapping",
+        "Risk Assessment",
+        "Fraud Analytics",
+        "Data Quality",
+        "Data Validation",
+        "Security Standards"
+      ]
+    },
+    {
+      "category": "Tools & Frameworks",
+      "icon": "fas fa-tools",
+      "color": "#764ba2",
+      "skills": [
+        "MySQL",
+        "PostgreSQL",
+        "Oracle",
+        "Snowflake",
+        "MongoDB",
+        "BigQuery",
+        "PL/SQL",
+        "SQL Server",
+        "Teradata",
+        "Apache Airflow",
+        "AWS Glue",
+        "Informatica",
+        "Talend",
+        "dbt",
+        "SSIS",
+        "Job Scheduling",
+        "Automation",
+        "Power BI",
+        "Tableau",
+        "Looker Studio",
+        "QlikView",
+        "KPI Dashboard",
+        "Excel",
+        "Hadoop",
+        "Apache Spark",
+        "Hive",
+        "Kafka",
+        "CI/CD",
+        "Jenkins",
+        "AWS (EC2, S3, Lambda, Redshift, Glue, IAM)",
+        "Microsoft Azure (Data Factory, Databricks, SQL)",
+        "GCP",
+        "Git",
+        "GitHub",
+        "JIRA",
+        "Agile",
+        "Scrum"
+      ]
+    }
+  ]
+}

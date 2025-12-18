@@ -1,0 +1,16 @@
+{
+  "sectionTitle": "Education",
+  "education": [
+    {
+      "degree": "Masters in Management Information Systems",
+      "institution": "University at Memphis",
+      "period": "May 2024",
+      "description": "Masters in Management Information Systems",
+      "achievements": [],
+      "color": "#667eea",
+      "icon": "fas fa-graduation-cap"
+    }
+  ],
+  "certificationsTitle": "Certifications & Awards",
+  "certifications": []
+}

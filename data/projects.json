@@ -1,0 +1,152 @@
+{
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "Pharmacy Customer Churn Prediction (McKesson)",
+      "description": "Developed a classification model using Python (XGBoost) to identify pharmacies at risk of switching distributors based on order volume and complaint history.\nFlagged 500+ at-risk accounts for the sales team, resulting in a 12% reduction in customer churn.\nProtected approximately $2M in annual revenue by enabling proactive retention strategies.",
+      "color": "#667eea",
+      "icon": "fas fa-project-diagram",
+      "technologies": [
+        "Python",
+        "XGBoost"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      },
+      "stats": {}
+    },
+    {
+      "title": "Marketing Mix Modeling (Uber)",
+      "description": "Built a statistical regression model using Python and Azure Databricks to attribute ride bookings to specific marketing channels (Email, Push, Paid Ads).\nReallocated $500K in quarterly ad spend based on channel performance insights.\nIncreased Customer Acquisition Cost (CAC) efficiency by 15% without reducing total booking volume.",
+      "color": "#764ba2",
+      "icon": "fas fa-project-diagram",
+      "technologies": [
+        "Python",
+        "Azure Databricks"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "",
+        "demo": ""
+      },
+      "stats": {}
+    },
+    {
+      "title": "retail-data-analytics-project-python-sql-integration",
+      "description": "Practice application demonstrating full-stack development skills",
+      "color": "#f093fb",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/srikarvechalapu/retail-data-analytics-project-python-sql-integration",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "data-pipelines-with-airflow",
+      "description": "Interactive application built for continuous learning",
+      "color": "#4facfe",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Python"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/srikarvechalapu/data-pipelines-with-airflow",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python"
+      }
+    },
+    {
+      "title": "extracting-structured-data-from-pdfs",
+      "description": "Practice application demonstrating full-stack development skills",
+      "color": "#667eea",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/srikarvechalapu/extracting-structured-data-from-pdfs",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python"
+      }
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Interactive application built for continuous learning",
+      "color": "#764ba2",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Python"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/srikarvechalapu/customer-churn-prediction",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python"
+      }
+    },
+    {
+      "title": "online-payments-fraud-detection-with-machine-learning",
+      "description": "Interactive application built for continuous learning",
+      "color": "#f093fb",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/srikarvechalapu/online-payments-fraud-detection-with-machine-learning",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    }
+  ]
+}

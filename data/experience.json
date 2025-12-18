@@ -1,0 +1,68 @@
+{
+  "sectionTitle": "Work Experience",
+  "experiences": [
+    {
+      "title": "Data Analyst",
+      "company": "McKesson",
+      "location": "",
+      "period": "August 2024 – Present",
+      "type": "Full-time",
+      "color": "#667eea",
+      "icon": "fas fa-briefcase",
+      "description": "Engineered 12+ ETL pipelines using AWS Redshift and S3, streamlining healthcare data transfers and reducing data error rates by 25%, while improving reliability and processing speed by 40%.\nPartnered with product, marketing, and clinical teams to define KPIs and build analytics infrastructure for product performance monitoring, enabling identification of key metric trends that drove a 15% improvement in feature adoption within six months.\nDesigned 8 interactive dashboards in Power BI and Looker, enabling real-time KPI tracking and reducing manual reporting time by 50%.\nOrchestrated the migration of large-scale pharmacy datasets from on-prem databases to Snowflake, utilizing Snowpipe for continuous data ingestion and optimizing query performance for 200+ daily users.\nFormulated and deployed predictive models using Scikit-learn and Python to forecast inventory demand, reducing stockouts by 18% and optimizing supply chain logic.\nImplemented an anomaly detection system using Databricks ML and TensorFlow to identify irregular billing patterns, proactively saving the company $150K+ in quarterly revenue leakage.\nLeveraged Databricks and PySpark to process terabytes of unstructured clinical data, enabling faster query execution and reducing data processing time by 35%.\nAuthored training resources and documentation, increasing dashboard adoption and reducing ad-hoc data requests by 30+ per quarter.\nInstituted robust data governance standards using Collibra to map data lineage, ensuring compliance with healthcare regulations and improving trust in analytics assets.",
+      "responsibilities": [],
+      "technologies": [
+        "AWS Redshift",
+        "S3",
+        "Power BI",
+        "Looker",
+        "Snowflake",
+        "Snowpipe",
+        "Scikit-learn",
+        "Python",
+        "Databricks ML",
+        "TensorFlow",
+        "Databricks",
+        "PySpark",
+        "Collibra"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "UBER",
+      "location": "",
+      "period": "May 2021 – May 2022",
+      "type": "Full-time",
+      "color": "#764ba2",
+      "icon": "fas fa-briefcase",
+      "description": "Optimized 50+ SQL queries and automated recurring ETL jobs, reducing system latency by 35% and saving 30+ engineering hours per month.\nConstructed Tableau dashboards to track operational KPIs, campaign performance, and audience segments, enabling data-driven optimizations that boosted marketing ROI by 18%.\nConducted in-depth product analytics on driver and rider engagement trends, guiding feature enhancements that improved user experience and increased satisfaction scores by 12%.\nApplied NLP to analyze 20K+ user reviews, uncovering sentiment trends and product feedback that led to UX design improvements and a 12% increase in rider satisfaction.\nDirected and executed rigorous A/B testing frameworks to evaluate dynamic pricing experiments, utilizing statistical analysis to validate strategies that increased gross bookings by 8%.\nEmployed Python and Statistical Analysis to identify complex driver-rider collusion patterns and incentive abuse, preventing $1.2M in annualized revenue loss.\nBuilt a transaction risk scoring model to analyze payment failures and chargeback trends, implementing threshold adjustments that reduced credit card chargeback rates by 15% without impacting genuine user bookings.\nCollaborated with Regional Operations and Engineering teams to define technical requirements and presented weekly updates that directly influenced the product roadmap.",
+      "responsibilities": [],
+      "technologies": [
+        "SQL",
+        "Tableau",
+        "NLP",
+        "Python",
+        "Statistical Analysis"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Cipla",
+      "location": "",
+      "period": "November 2018 - April 2021",
+      "type": "Full-time",
+      "color": "#f093fb",
+      "icon": "fas fa-briefcase",
+      "description": "Utilized Python, SQL, and AWS (S3, Redshift) to analyze large-scale clinical datasets, improving research accuracy by 20% and enabling faster, data-driven decisions across 3 departments.\nDelivered 10+ Power BI dashboards, providing executives with real-time business insights and reducing decision-making time by 35 hours/month.\nStreamlined scalable ETL workflows and dimensional data models, allowing 60+ business users to access timely and accurate data, boosting operational efficiency.\nLed the development of a patient tracking system, significantly reducing data entry errors by 30K annually and improving patient care accuracy.",
+      "responsibilities": [],
+      "technologies": [
+        "Python",
+        "SQL",
+        "AWS",
+        "S3",
+        "Redshift",
+        "Power BI"
+      ]
+    }
+  ]
+}
